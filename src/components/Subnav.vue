@@ -153,8 +153,9 @@ order: 1;
 flex-grow: 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .Subnav {
+    z-index: 1;
     position: fixed;
     }
 }

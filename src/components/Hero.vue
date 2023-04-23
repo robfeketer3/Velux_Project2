@@ -12,10 +12,11 @@
         <div class="Image">
             <div class="InImage">
                 <img id="InImage_img" src="/src/assets/circle icon.png" alt="">
-                <span>Outside view</span>
+                <span id="TextinText_span2">Outside view</span>
             </div>
             <img src="/src/assets/ID10125464_150071-01-XXL 1.png" alt="">
         </div>
+        <img style="visibility: hidden" id="LazyShortCut" src="/src/assets/Button_ On top (Change view) - Dark.png" alt=".">
     </div>
 </template>
 
@@ -233,6 +234,43 @@ white-space: nowrap;
     top: 0px;
     
     
+}
+
+@media (max-width: 376px) {
+
+    #TextinText_span {
+        position: absolute;
+        top: -330px;
+        left: 1px;
+    }
+
+    .TextinText img {
+        position: absolute;
+        top: -323px;
+        left: 180px;
+    }
+
+    .Text span {
+        position: absolute;
+        top: -290px;
+        left: 1px;
+        max-width: 300px;
+    }
+
+    .Image img {
+        margin-top: -80px;
+        margin-left: -20px;
+        max-width: 350px;
+        height: 280px;
+    }
+
+    #LazyShortCut {
+        z-index: 2;
+        visibility: visible;
+        top: 10px;
+        width: 1000px;
+    }
+
 }
 
 </style>

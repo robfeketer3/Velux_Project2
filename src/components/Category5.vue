@@ -75,4 +75,10 @@
     top: 2040px;
 }
 
+@media (max-width: 376px) {
+    *{
+        visibility: hidden;
+    }
+}
+
 </style>

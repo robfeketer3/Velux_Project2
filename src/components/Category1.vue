@@ -73,6 +73,16 @@
     top: 1300px;
 }
 
+@media (max-width: 376px) {
 
+    .Image img {
+        margin-top: -80px;
+        margin-left: -20px;
+        max-width: 350px;
+        height: 280px;
+        top: 900px;
+    }
+
+}
 
 </style>

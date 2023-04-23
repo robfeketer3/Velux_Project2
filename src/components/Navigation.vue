@@ -186,7 +186,7 @@
 
 /* Mobile */
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   #Stories, #Spaces, #Products, #right-side img {
     visibility: hidden;
   }

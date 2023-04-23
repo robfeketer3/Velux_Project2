@@ -98,8 +98,29 @@
     flex-grow: 0;
 }
 
-@media (max-width: 375px) {
-    
+@media (max-width: 376px) {
+    .Text h1 {
+        position: relative;
+        width: 335px;
+        height: 43px;
+        margin-left: -20px;
+        margin-top: -20px;
+
+        /* VELUX Gothic/Mobile/Title 1 (H1) */
+
+        font-family: 'VeluxGothic';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43px;
+        white-space: nowrap;
+    }
+
+    #text {
+        margin-left: -20px;
+        margin-top: -20px;
+        max-width: 330px;
+    }
 }
 
 </style>
